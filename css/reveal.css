@@ -856,7 +856,9 @@ body {
 
 /* Slide */
 .reveal[data-background-transition=slide] > .backgrounds .slide-background,
-.reveal > .backgrounds .slide-background[data-background-transition=slide] {
+.reveal > .backgrounds .slide-background[
+
+-transition=slide] {
   opacity: 1;
   -webkit-backface-visibility: hidden;
           backface-visibility: hidden; }
