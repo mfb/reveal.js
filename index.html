@@ -29,23 +29,44 @@
 		<div class="reveal">
 			<div class="slides">
             <!-- Beginning Slide -->
-            <section data-background-image="./assets/ssd-logo.png" data-background-size="30%" data-background-position="50% 10%">Mark Burdett & Soraya Okuda<br>The Electronic Frontier Foundation<br>10.8.16<br></section>
-            
+            <section data-background-image="./assets/ssd-logo.png" data-background-size="30%" data-background-position="50% 5%">
+<h1><p></p></h1>              
+<h1><p></p></h1>     
+<h2>Digital Security 101</h2>
+
+Mark Burdett<br>mfb@eff.org<br>Electronic Frontier Foundation<br>14 November 2017<br></section>
+        
+<section><img src="assets/eff-logo.jpg">
+<p class="fragment">Founded 1990</p>
+<p class="fragment">Our mission: To defend your rights in the digital world</p>
+<p class="fragment">Impact Litigation</p>
+<p class="fragment">Activism</p>
+<p class="fragment">Technology</p>
+</section>
+    
             <!-- Threat Modeling -->
             <section data-background-image="./assets/Threatmodeling.png" data-background-size="70%"></section>
             
-            <section data-background="./assets/Threatmodeling.png" data-background-size="100px" data-background-position="2% 98%">
+            <section 
+         data-separator="^\n\n\n"  
+         data-separator-vertical="^\n\n"  
+         data-separator-notes="^Note:"  
+         data-background="./assets/Threatmodeling.png" data-background-size="100px" data-background-position="2% 98%">
               <section>
+		<h3>Assets</h3>
                 <p class="fragment">- What information are you trying to protect? </p>
+<h3>Adversaries</h3>
                 <p class="fragment">- Who are you protecting that information from?</p> 
-				<p class="fragment">- How much effort do you want/need to go through to protect it?</p>
-				<p class="fragment">- What are the consequences?</p>
+<h3>Cost</h3>
+		<p class="fragment">- How much effort do you want/need to go through to protect it?</p>
+<h3>Risks</h3>
+		<p class="fragment">- What are the consequences?</p>
               </section>
             
               <!-- Mark uses whiteboard to talk about examples.-->
             
               <section>
-            	<p>______(person) protecting ________(information) from ______(adversary).</p>
+            	<p>I need to protect __________ [asset]<br />from __________ [adversary].</p>
               </section>
             
             
@@ -99,7 +120,7 @@
             <!-- Signal -->
             
             <section data-background="./assets/Signal_Icon.png" data-background-size="50%">
-<p>Signal</p>
+<p style="color: #000">Signal</p>
             </section>  
             
             <section data-background="./assets/PhoneCommunication1.png" data-background-size="50%"></section>
@@ -146,7 +167,7 @@
             
             <!--   Demo for Desktop-->
                      <section data-background="./assets/Signal_Icon.png" data-background-size="50px" data-background-position="2% 98%">
-                   There's also a Desktop version of Signal, available for Chrome. It connects to your smartphone app account (tied to your phone number).
+                   There's also a Desktop version of Signal. It connects to your smartphone app account (tied to your phone number).
             </section>
             
             <section data-background="./assets/Signal_Icon.png" data-background-size="50px" data-background-position="2% 98%">
@@ -186,6 +207,150 @@
             <section data-background="./assets/Signal_Icon.png" data-background-size="50px" data-background-position="2% 98%">
             	<p>Questions?</p>
             </section>
+
+   <!-- Encrypting devices, files & passwords + Password Managers -->
+   
+   <section>Good basic security:
+   <p class="fragment">Screen lock your phone.</p>
+   <p class="fragment">Password protect your computer.</p>
+   <p class="fragment">Put your devices "to sleep" or "hibernate" when leaving them. Do not leave them unlocked.</p>
+   <p class="fragment">Shut down a device completely when traveling.</p>
+   <p class="fragment">Be careful when connecting via USB, Bluetooth, etc.</p></section>
+
+<section>Password protecting your phone, computer, and other devices</section>
+
+	<section data-background="./assets/IOSSettings1.PNG" data-background-size="30%"></section>
+    <section data-background="./assets/IOSSettings2.PNG" data-background-size="30%"></section>
+    <section data-background="./assets/IOSSettings3.PNG" data-background-size="30%"></section>
+    <section data-background="./assets/IOSSettings4.PNG" data-background-size="30%"></section>
+    <section data-background="./assets/IOSSettings5.PNG" data-background-size="30%"></section>
+    
+    
+<section>So you've picked an alphanumeric code. What kind of password should you make?</section>
+
+ <section data-background="./assets/passwordstrength.png" data-background-size="65%"></section>
+ 
+ <section>You should make a PASSPHRASE!(4+ words) </section>
+ 
+ <section>"Ok, for my computer password and phone password, that makes sense. But what about all my other passwords?"</section>
+ 
+  <section>Those should also be unique, but also very long to make it difficult for computers to guess them.</section>
+
+  <section>"That seems hard to remember and keep track of. You can't expect me to keep all of those passwords and remember them."</section>
+  
+    <section>PASSWORD MANAGER!</section>
+    
+       <section>Password Managers 
+   <p class="fragment">+ Lots of options available, e.g. KeePass, 1Password, LastPass.</p>
+   <p class="fragment">+ Encrypts your passwords.</p>
+   <p class="fragment">+ Just requires one password (master password) to remember, which unlocks the others.</p>
+   <p class="fragment">+ Great for saving passwords and security questions.</p></section>
+    
+    	<section data-background="./assets/0MrPwMngr.png" data-background-size="60%"></section>
+        <section data-background="./assets/1MrPwMngr.png" data-background-size="60%"></section>
+        <section data-background="./assets/2MrPwMngr.png" data-background-size="60%"></section>
+        <section data-background="./assets/3MrPwMngr.png" data-background-size="60%"></section>
+        <section data-background="./assets/4MrPwMngr.png" data-background-size="60%"></section>
+        <section data-background="./assets/5MrPwMngr.png" data-background-size="60%"></section>
+
+          <section><h2>Encrypting your devices</h2>
+            <p class="fragment">Protects the data on your devices when they are lost, stolen, seized</p>
+  	    <p class="fragment">iOS: on by default :)</p>
+            <p class="fragment">Chromebook: on by default :)</p>
+            <p class="fragment">Android: You can enable it under settings</p>
+            <p class="fragment">Mac OS X: FileVault: You can enable it for your internal and external disks</p>
+            <p class="fragment">Windows: BitLocker: You can enable it for your internal and external disks</p>
+            <p class="fragment">Make backups of your disk encryption password!</p>
+          </section>
+          <section>Speaking of backups....
+          <img src="assets/wannacry.jpg" />
+          </section>
+          <section>
+            Data loss is a real risk.
+            <p>Maintain local and/or remote backups.</p>
+          </section>
+
+
+
+  <section>Questions about locking devices, passwords, password managers and disk encryption?</section>
+
+    <!--(5 minutes)
+
+    + Mention concept of easy to memorize but strong password. And not repeating.
+
+
+    + Importance of having unique and random passwords
+
+     (and moving toward passphrases)
+
+    -computational strength to break passwords, why important for passwords to be long +easy to remember. solution? phrases. think 4-5 words.
+
+<!--
+
+    Passsphrases for immediate accounts that you need access to 
+
+
+
+    Lesser accounts- password manager. benefit = generates random & unique ones. don't ahve to roll dice.
+
+
+    + Demo: Generating a random passphrase using dice lists. Providing link to eff.org/dice
+
+
+
+    (good to throw in a screenshot)
+
+    Here's KeePass and it stores your passwords.
+
+
+    Direct people to the tutorial on SSD for how to use KeePass X.
+
+
+    Soraya will include fake screenshots of how a fake app conceptually works.
+
+
+    + How a password manager helps you save all of them. Benefit of password manager: encrypts passwords, stores locally, helps you make random & unique passwords for each account.
+
+
+    +Demo of managing passwords on Keepass, and what it looks like to use the interface.
+
+
+    + But what about a master password for that password manager?
+
+
+    + Q/A 2 minutes.  -->
+   
+   
+   <!-- Malware & Phishing -->
+
+             <section data-background="./assets/Malware.png" data-background-size="50%"></section>
+
+            <section data-background="./assets/Malware.png" data-background-size="100px" data-background-position="2% 98%"> <h2>Phishing</h2> People can create websites that look legitimate and trick you into entering your password.
+          </section>
+            <section data-background="./assets/Malware.png" data-background-size="100px" data-background-position="2% 98%"> Avoid clicking on unknown links, and especially do not enter your password on the wrong site
+          </section>
+<section><img src="assets/google.png"></section>
+<section>How would you know if that was really a Google login page?</section>
+<section>2 Factor Auth
+<p class="fragment">Provides a second layer of protection to your online accounts</p>
+<p class="fragment">Real world example:<br /> Something you have (key) plus something you know (combination)</p>
+<p class="fragment">Online example:<br /> Something you have (your cell phone) plus something you know (password)</p>
+<p class="fragment">Available for many Google, Facebook, banks etc.</p>
+<p class="fragment">You can also ask other providers, e.g. cell phone company, to enforce a PIN number </p>
+</section>
+            <section data-background="./assets/Malware.png" data-background-size="100px" data-background-position="2% 98%"> <h2>Malware, Viruses, etc.</h2> Avoid opening files without verifying in person or over the phone that someone really sent it to you.<p>To be safer, open a file in Google Drive rather than directly on your computer.</p></section>
+          <section data-background="./assets/Malware.png" data-background-size="100px" data-background-position="2% 98%">Apply security updates</section>
+          <section data-background="./assets/Malware.png" data-background-size="100px" data-background-position="2% 98%">Use anti-malware tools provided by your operating system (Windows Defender) </section>
+<section>What are the risks of a phishing or malware attack?
+<p class="fragment">Losing access to your accounts</p>
+<p class="fragment">Private info leaked</p>
+<p class="fragment">Data loss</p>
+<p class="fragment">Money (identity theft, ransomware, etc.)</p>
+<p class="fragment">Weeks of cleanup work if attacker accesses many accounts</p>
+</section>
+
+  <section data-background="./assets/Malware.png" data-background-size="100px" data-background-position="2% 98%">     Questions?
+          </section>
 
 
 <!--Browseres & http/https -->
@@ -290,120 +455,10 @@
 
           <section data-background="./assets/Tor-Onion.png" data-background-size="50px" data-background-position="2% 98%"> Questions?
           </section>
-   
-   <!-- Encrypting devices, files & passwords + Password Managers -->
-   
-   <section data-background="" data-background-size="50px" data-background-position="2% 98%">Encrypting your devices</section>
-   
-   <section>Good basic security:
-   <p class="fragment">Screen lock your phone.</p>
-   <p class="fragment">Password protect your computer.</p>
-   <p class="fragment">Put your devices "to sleep" when leaving them. Do not leave them unlocked.</p>
-   <p class="fragment">Shut down a device completely when traveling.</p></section>
-
-<section>Password protecting your phone, computer, and other devices</section>
-
-	<section data-background="./assets/IOSSettings1.PNG" data-background-size="30%"></section>
-    <section data-background="./assets/IOSSettings2.PNG" data-background-size="30%"></section>
-    <section data-background="./assets/IOSSettings3.PNG" data-background-size="30%"></section>
-    <section data-background="./assets/IOSSettings4.PNG" data-background-size="30%"></section>
-    <section data-background="./assets/IOSSettings5.PNG" data-background-size="30%"></section>
-    
-    
-<section>So you've picked an alphanumeric code. What kind of password should you make?</section>
-
- <section data-background="./assets/passwordstrength.png" data-background-size="65%"></section>
- 
- <section>You should make a PASSPHRASE!(4+ words) </section>
- 
- <section>"Ok, for my computer password and phone password, that makes sense. But what about all my other passwords?"</section>
- 
-  <section>Those should also be unique, but also very long to make it difficult for computers to guess them.</section>
-
-  <section>"That seems hard to remember and keep track of. You can't expect me to keep all of those passwords and remember them."</section>
   
-    <section>PASSWORD MANAGER!</section>
-    
-       <section>Password Managers 
-   <p class="fragment">+ Lots of options available, e.g. KeePass, 1Password, LastPass.</p>
-   <p class="fragment">+ Encrypts your passwords.</p>
-   <p class="fragment">+ Just requires one password (master password) to remember, which unlocks the others.</p>
-   <p class="fragment">+ Great for saving passwords and security questions.</p></section>
-    
-    	<section data-background="./assets/0MrPwMngr.png" data-background-size="60%"></section>
-        <section data-background="./assets/1MrPwMngr.png" data-background-size="60%"></section>
-        <section data-background="./assets/2MrPwMngr.png" data-background-size="60%"></section>
-        <section data-background="./assets/3MrPwMngr.png" data-background-size="60%"></section>
-        <section data-background="./assets/4MrPwMngr.png" data-background-size="60%"></section>
-        <section data-background="./assets/5MrPwMngr.png" data-background-size="60%"></section>
-
-  <section>Questions about locking devices, passwords, and password managers?</section>
-
-    <!--(5 minutes)
-
-    + Mention concept of easy to memorize but strong password. And not repeating.
-
-
-    + Importance of having unique and random passwords
-
-     (and moving toward passphrases)
-
-    -computational strength to break passwords, why important for passwords to be long +easy to remember. solution? phrases. think 4-5 words.
-
-<!--
-
-    Passsphrases for immediate accounts that you need access to 
-
-
-
-    Lesser accounts- password manager. benefit = generates random & unique ones. don't ahve to roll dice.
-
-
-    + Demo: Generating a random passphrase using dice lists. Providing link to eff.org/dice
-
-
-
-    (good to throw in a screenshot)
-
-    Here's KeePass and it stores your passwords.
-
-
-    Direct people to the tutorial on SSD for how to use KeePass X.
-
-
-    Soraya will include fake screenshots of how a fake app conceptually works.
-
-
-    + How a password manager helps you save all of them. Benefit of password manager: encrypts passwords, stores locally, helps you make random & unique passwords for each account.
-
-
-    +Demo of managing passwords on Keepass, and what it looks like to use the interface.
-
-
-    + But what about a master password for that password manager?
-
-
-    + Q/A 2 minutes.  -->
-   
-   
-   <!-- Malware & Phishing
-
-             <section data-background="./assets/Malware.png" data-background-size="50%"></section>
-
-            <section data-background="./assets/Malware.png" data-background-size="100px" data-background-position="2% 98%"> + People can create websites that look legitimate
-          </section>
-            <section data-background="./assets/Malware.png" data-background-size="100px" data-background-position="2% 98%">     + Being careful to not click on bad links (double-check that URL is what you think it is, can copy into a notepad to double-check) Be wary of link shorteners
-          </section>
-            <section data-background="./assets/Malware.png" data-background-size="100px" data-background-position="2% 98%">     + Being careful to not download/open attachments from someone that you don't know, even if it is juicy looking info. (- e.g. Could open things in Google Drive instead)
-          </section>
-            <section data-background="./assets/Malware.png" data-background-size="100px" data-background-position="2% 98%">     + As much as possible, verifying in person or over phone that someone you trust is actually sending that info.
-          </section>
-  <section data-background="./assets/Malware.png" data-background-size="100px" data-background-position="2% 98%">     Questions?
-          </section>
 
     </div>
 
--->
 		<script src="lib/js/head.min.js"></script>
 		<script src="js/reveal.js"></script>
 
